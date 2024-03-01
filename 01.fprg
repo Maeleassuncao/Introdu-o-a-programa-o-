@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-01 09:11:45 "/>
+        <attribute name="created" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMDE7IjA4OjMwOjM5ICI7MjM1OA=="/>
+        <attribute name="edited" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMDE7IjA5OjExOjQ1ICI7MTsyNDYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="distancia, forcag, massaA, massaB, cgravitacional" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite a distancia &quot;" newline="True"/>
+            <input variable="distancia"/>
+            <output expression="&quot;digite a forca gravitacional &quot;" newline="True"/>
+            <input variable="forcag"/>
+            <output expression="&quot;digite a massa do objeto b&quot;" newline="True"/>
+            <input variable="massaB"/>
+            <assign variable="massaA" expression="(forcag*distancia^2)/(massaB*6.67408*10^(-11))"/>
+            <output expression="massaA*1000" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
