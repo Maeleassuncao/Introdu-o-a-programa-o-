@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-15 08:54:43 "/>
+        <attribute name="created" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMTU7IjA4OjM0OjE4ICI7MjM2NA=="/>
+        <attribute name="edited" value="QWx1bm87QUxVTk9JRkJBOzIwMjQtMDMtMTU7IjA4OjU0OjQzICI7MTsyNDcy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tab, tab2, j" type="Integer" array="False" size=""/>
+            <output expression="&quot; digite um valor &quot;" newline="True"/>
+            <input variable="j"/>
+            <for variable="tab2" start="1" end="10" direction="inc" step="1">
+                <output expression="j &amp; &quot; x&quot; &amp;tab2&amp;&quot;=&quot; &amp; j*tab2" newline="True"/>
+            </for>
+            <output expression="&quot; &quot;" newline="True"/>
+            <assign variable="tab" expression="1"/>
+            <while expression="tab&lt;=10">
+                <output expression="j&amp;&quot;x&quot;&amp; tab &amp;&quot;=&quot; &amp;j*tab" newline="True"/>
+                <assign variable="tab" expression="tab+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
